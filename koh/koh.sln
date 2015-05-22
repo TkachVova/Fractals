@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "koh", "koh\koh.csproj", "{9DE05DD1-65E9-448D-9036-1EEDD1302200}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Mendelbort", "Mendelbort\Mendelbort.fsproj", "{F71DFF58-EDEB-4CF7-9B04-B11A7D8D2324}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DE05DD1-65E9-448D-9036-1EEDD1302200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE05DD1-65E9-448D-9036-1EEDD1302200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE05DD1-65E9-448D-9036-1EEDD1302200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE05DD1-65E9-448D-9036-1EEDD1302200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F71DFF58-EDEB-4CF7-9B04-B11A7D8D2324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71DFF58-EDEB-4CF7-9B04-B11A7D8D2324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71DFF58-EDEB-4CF7-9B04-B11A7D8D2324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71DFF58-EDEB-4CF7-9B04-B11A7D8D2324}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
