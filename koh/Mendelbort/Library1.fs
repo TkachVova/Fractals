@@ -36,6 +36,8 @@ let createImage (s, mx, my, iter) =
                 image.SetPixel(x,y, Color.Green)
             else
                 image.SetPixel(x,y, Color.Black )
+            if mapPlane (x, y, s, mx, my) = Complex.Zero then
+                image.SetPixel(x,y, Color.White)
     image
 
 

@@ -24,6 +24,9 @@ namespace koh
             maskedTextBox1.Text = "5";
             maskedTextBox2.Text = "5";
             maskedTextBox3.Text = "15";
+            maskedTextBox4.Text = "1.0";
+            maskedTextBox5.Text = "-1.0";
+            maskedTextBox6.Text = "-1.0";
         }
   
         private void DrawKoh(object sender, EventArgs e)
@@ -134,7 +137,7 @@ namespace koh
         {
             g = CreateGraphics();
             g.Clear(Color.Black);//Зарисовка экрана черным фоном
-            Bitmap image = Mendelbort.createImage(1, -1, -1, int.Parse(maskedTextBox3.Text));
+            Bitmap image = Mendelbort.createImage(double.Parse(maskedTextBox4.Text), double.Parse(maskedTextBox5.Text), double.Parse(maskedTextBox5.Text), int.Parse(maskedTextBox3.Text));
             g.DrawImage(image, 140, 50);
         }
 
